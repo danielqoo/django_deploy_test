@@ -28,7 +28,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "ec2-54-244-45-28.us-west-2.compute.amazonaws.com",
-    "*.srt.seoul.kr",
+    "srt.seoul.kr",
+    "www.srt.seoul.kr",
+    ".srt.seoul.kr",
+    "*",
 ]
 
 
