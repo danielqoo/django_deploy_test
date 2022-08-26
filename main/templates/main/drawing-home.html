@@ -1,0 +1,634 @@
+{%load static%}
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ThemeStarz">
+
+    <link href="{% static 'assets/fonts/font-awesome.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'assets/fonts/elegant-fonts.css' %}" rel="stylesheet" type="text/css">   
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}" type="text/css">
+
+    <title>Welcome to SRT</title>
+
+    <style>
+        body {
+            background-color: #f3f3f3;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="page-wrapper">
+    <header>
+        <div class="brand animate"><a href=""><img src="{% static 'assets/img/srt_logo.gif' %}" alt=""></a></div>
+        <nav>
+            <ul class="navigation animate">
+                <li><a href="" data-toggle="modal" data-target="#modal-about-us">About SRT</a></li>
+                <li><a href="" data-toggle="modal" data-target="#modal-services">Mission</a></li>
+                <li><a href="" data-toggle="modal" data-target="#modal-our-works">Our Works</a></li>
+                <li><a href="" data-toggle="modal" data-target="#modal-contact-us">Contact</a></li>
+            </ul>
+            <!--end navigation-->
+        </nav>
+    </header>
+    <div class="content-wrapper">
+        <div class="content-main animate">
+            <div class="container">
+                <h1 class="font-size-90"><span style="color: #FF40B1;">A</span><span style="color: #ff6767;">w</span><span style="color: #FFA047;">e</span><span style="color: #24B34C;">s</span><span style="color: #44499c;">o</span><span style="color: #bb4795;">m</span><span style="color: #e4007f;">e</span><span style="color: #42b475;">!</span></h1>
+                <h2 class="opacity-60">Songpa Revolution in Table</h2>
+            </div>
+            <!--end container-->
+        </div>
+        <!--end content-main-->
+        <div class="background-wrapper">
+            <div id="background-content"></div>
+        </div>
+        <!--end background-wrapper-->
+    </div>
+    <!--end content-wrapper-->
+    <footer>
+        <div class="social-icons animate">
+            <!--<a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>-->
+            <a href="https://www.instagram.com/srt__crew/" class="icon" target="_blank"><img src="{% static 'assets/img/ICON_INSTA.png' %}" alt="" height="15" width="15"> srt__crew</a>
+            <a href="mailto:ask@srt.seoul.kr" class="icon" target="_blank"><img src="{% static 'assets/img/ICON_MAIL.png' %}" alt="" height="15" width="15"> ask@srt.seoul.kr</a>
+            <a href="" class="icon" target="_blank"><img src="{% static 'assets/img/ICON_TALK.png' %}" alt="" height="15" width="15"> nevertheless.</a>
+            <!--<a href="#"><i class="fa fa-pinterest"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>-->
+        </div>
+        <!--end social-icons-->
+    </footer>
+</div>
+<!--end page-wrapper-->
+
+<!-- Modal About Us -->
+<div class="modal fade" id="modal-about-us" tabindex="-1" role="dialog" aria-labelledby="modal-about-us-label">
+    <div class="modal-dialog" role="document">
+        <div class="container">
+            <div class="modal-content">
+                <div class="modal-header" data-background-color="#00FF7F">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2 class="modal-title" id="modal-about-us-label">SRT 소개</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <section>
+                                <h3 style="color:#ff6767"><b>만든 이</b></h3>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="person">
+                                            <div class="image">
+                                                <div class="bg-transfer">
+                                                    <img src="{% static 'assets/img/hyojung_picture.png' %}" alt="">
+                                                </div>
+                                                </div>
+                                            <div class="rep3">
+                                                <h4>윤효정</h4>
+                                                <h5>대표</h5>
+                                            </div>
+                                            <div class="social-icons">
+                                            </div>
+                                        </div>
+                                        <!--end person-->
+                                    </div>
+                                    <!--end col-md-6-->
+                                </div>
+                                <!--end row-->
+                            </section>
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-4 col-sm-4">
+                            <section>
+                                <h3 style="color:#ff6767;"><b>모임명</b></h3>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="person">
+                                            <div class="rep3">
+                                                <h4>Songpa Revolution in Table</h5>
+                                            </div>
+                                        </div>
+                                        <!--end person-->
+                                    </div>
+                                    <!--end col-md-6-->
+                                </div>
+                                <!--end row-->
+                            </section>
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-4 col-sm-4">
+                            <section>
+                                <h3 style="color:#ff6767;"><b>설립일</b></h3>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="person">
+                                            <div class="rep3">
+                                                <h4>2021.11.06</h4>
+                                            </div>
+                                        </div>
+                                        <!--end person-->
+                                    </div>
+                                    <!--end col-md-6-->
+                                </div>
+                                <!--end row-->
+                            </section>
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-4 col-sm-4">
+                            <section>
+                                <h3 style="color:#ff6767;"><b>주요활동</b></h3>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="person">
+                                            <div class="rep2">
+                                                <h4>시사 잡지 독서 및 정치 토론</h4>
+                                            </div>
+                                        </div>
+                                        <!--end person-->
+                                    </div>
+                                    <!--end col-md-6-->
+                                </div>
+                                <!--end row-->
+                            </section>
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-4 col-sm-4">
+                            <section>
+                                <h3 style="color:#ff6767;"><b>모임 일시</b></h3>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="person">
+                                            <div class="rep2">
+                                                <h4>격주 주말 오후</h4>
+                                            </div>
+                                        </div>
+                                        <!--end person-->
+                                    </div>
+                                    <!--end col-md-6-->
+                                </div>
+                                <!--end row-->
+                            </section>
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-12 col-sm-12">
+                            <section>
+                                <h3 style="color:#ff6767;"><b>서울, 그리고 청년</b></h3>
+                                <p>
+                                    오늘날 서울에서 살아가는 대부분의 청년들은 디아스포라에 가깝습니다.
+                                </p>
+                                <p>
+                                    태어난 고향, 혹은 부모님을 떠나 서울의 각 지역에 새로운 뿌리를 내리고 있습니다.
+                                </p>
+                                <p>
+                                    하지만 학업, 취업, 직장생활 등으로 인해 지역 중심의 공동체 활동을 하는 것이 쉽지 않습니다.
+                                </p>
+                                <p>
+                                    이에 SRT는 활동반경이 같은 지역의 청년들을 모아 서로 소통할 수 있는 자리를 마련했습니다.
+                                </p>
+                            </section>
+                            <section>
+                                <h3 style="color:#ff6767;"><b>SRT가 모인 이유</b></h3>
+                                <div class="skill">
+                                    <h4>문득, 이런 생각이 들었습니다. 뉴스를 그저 일회용품처럼 습관적으로 소비하며 살고 있지는 않은지.</h4>
+                                    <aside></aside>
+                                    <figure class="bar">
+                                        <div class="bar-active width-80"></div>
+                                        <div class="bar-background"></div>
+                                    </figure>
+                                </div>
+                                <!--end skill-->
+                                <div class="skill">
+                                    <h4>시민으로서, 청년으로서 우리 사회에 관심을 갖고 좀 더 참여하는 방법은 없을까?</h4>
+                                    <aside></aside>
+                                    <figure class="bar">
+                                        <div class="bar-active width-100"></div>
+                                        <div class="bar-background"></div>
+                                    </figure>
+                                </div>
+                                <!--end skill-->
+                                <div class="skill">
+                                    <h4>함께 사는 가족, 매일 보는 직장 동료, 가까운 친구 사이일수록 부담스러운 정치 이야기를 우리끼리 모여 토론해 보는 건 어떨까?</h4>
+                                    <aside></aside>
+                                    <figure class="bar">
+                                        <div class="bar-active width-60"></div>
+                                        <div class="bar-background"></div>
+                                    </figure>
+                                </div>
+                                <!--end skill-->
+                            </section>
+                        </div>
+                        <!--end col-md-7-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end modal-body-->
+            </div>
+            <!--end modal-content-->
+        </div>
+        <!--end container-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end #modal-about-us-->
+
+
+<!-- Modal Services -->
+<div class="modal fade" id="modal-services" tabindex="-1" role="dialog" aria-labelledby="modal-services-label">
+    <div class="modal-dialog" role="document">
+        <div class="container">
+            <div class="modal-content">
+                <div class="modal-header" data-background-color="#ff6767">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2 class="modal-title" id="modal-services-label">SRT의 핵심 가치</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="box">
+                                <div class="icon">
+                                    <img src="{% static 'assets/img/청년.png' %}" alt="" height="60" width="60">
+                                    </div>
+                                <h3 style="color:#24B34C;"><b>청년</b></h3>
+                                <p>청년들이 정치적 주체로 새롭게 거듭납니다.</p>
+                            </div>
+                            <!--end box-->
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-4 col-sm-4">
+                            <div class="box">
+                                <div class="icon">
+                                    <img src="{% static 'assets/img/시민.png' %}" alt="" height="60" width="60">
+                                    </div>
+                                <h3 style="color:#24B34C;"><b>시민</b></h3>
+                                <p>민주주의를 살아가는 시민의 역량이 무엇인지 배웁니다.</p>
+                            </div>
+                            <!--end box-->
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-4 col-sm-4">
+                            <div class="box">
+                                <div class="icon">
+                                    <img src="{% static 'assets/img/정치.png' %}" alt="" height="60" width="60">
+                                    </div>
+                                <h3 style="color:#24B34C;"><b>정치</b></h3>
+                                <p>우리 사회의 정치적 지형도를 파악하고 견해를 세워봅니다.</p>
+                            </div>
+                            <!--end box-->
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-4 col-sm-4">
+                            <div class="box">
+                                <div class="icon">
+                                    <img src="{% static 'assets/img/토론.png' %}" alt="" height="60" width="60">
+                                    </div>
+                                <h3 style="color:#24B34C;"><b>토론</b></h3>
+                                <p>서로의 가치관을 공유하며 자유로운 소통을 나눕니다.</p>
+                            </div>
+                            <!--end box-->
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-4 col-sm-4">
+                            <div class="box">
+                                <div class="icon">
+                                    <img src="{% static 'assets/img/독서.png' %}" alt="" height="60" width="60">
+                                    </div>
+                                <h3 style="color:#24B34C;"><b>독서</b></h3>
+                                <p>시사잡지를 통해 국내외 뉴스를 심도있게 읽습니다.</p>
+                            </div>
+                            <!--end box-->
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-4 col-sm-4">
+                            <div class="box">
+                                <div class="icon">
+                                    <img src="{% static 'assets/img/지역.png' %}" alt="" height="60" width="60">
+                                </div>
+                                <h3 style="color:#24B34C;"><b>지역</b></h3>
+                                <p>지역사회 내 연대를 강화합니다.</p>
+                            </div>
+                            <!--end box-->
+                        </div>
+                        <!--end col-md-4-->
+                    </div>
+                </div>
+                <!--end modal-body-->
+            </div>
+            <!--end modal-content-->
+        </div>
+        <!--end container-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end #modal-services-->
+<!-- Modal Our Works -->
+<div class="modal fade" id="modal-our-works" tabindex="-1" role="dialog" aria-labelledby="modal-our-works-label">
+    <div class="modal-dialog" role="document">
+        <div class="container">
+            <div class="modal-content">
+                <div class="modal-header" data-background-color="#61dfff">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2 class="modal-title" id="modal-our-works-label">활동 성과</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <a href="{% static 'assets/img/Whatever Kit_full package.jpeg' %}" class="work image-popup">
+                                    <div class="description">
+                                    <h4 style="color:#FFA047;">Full Package</h4>
+                                    <h5>왓애버 프로젝트 (2022)</h5>
+                                </div>
+                                <!--end description-->
+                                <div class="image">
+                                    <div class="bg-transfer"><img src="{% static 'assets/img/Whatever Kit_full package.jpeg' %}" alt=""></div>
+                                    </div>
+                            </a>
+                            <!--end work-->
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-4 col-sm-4">
+                            <a href="{% static 'assets/img/Whatever Kit_workbook.jpeg' %}" class="work image-popup">
+                                    <div class="description">
+                                    <h4 style="color:#FFA047;">Workbook</h4>
+                                    <h5>왓애버 프로젝트 (2022)</h5>
+                                </div>
+                                <!--end description-->
+                                <div class="image">
+                                    <div class="bg-transfer"><img src="{% static 'assets/img/Whatever Kit_workbook.jpeg' %}" alt=""></div>
+                                    </div>
+                            </a>
+                            <!--end work-->
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-4 col-sm-4">
+                            <a href="{% static 'assets/img/Whatever Kit_sticker.jpeg' %}" class="work image-popup">
+                                        <div class="description">
+                                    <h4 style="color:#FFA047;">Sticker</h4>
+                                    <h5>왓애버 프로젝트 (2022)</h5>
+                                </div>
+                                <!--end description-->
+                                <div class="image">
+                                    <div class="bg-transfer"><img src="{% static 'assets/img/Whatever Kit_sticker.jpeg' %}" alt=""></div>
+                                    </div>
+                            </a>
+                            <!--end work-->
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-4 col-sm-4">
+                            <a href="{% static 'assets/img/Whatever Kit_question card.jpeg' %}" class="work image-popup">
+                                <div class="description">
+                                    <h4 style="color:#FFA047;">Question card</h4>
+                                    <h5>왓애버 프로젝트 (2022)</h5>
+                                </div>
+                                <!--end description-->
+                                <div class="image">
+                                    <div class="bg-transfer"><img src="{% static 'assets/img/Whatever Kit_question card.jpeg' %}" alt=""></div>
+                                </div>
+                            </a>
+                            <!--end work-->
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-4 col-sm-4">
+                            <a href="{% static 'assets/img/Whatever Kit_postcard.jpeg' %}" class="work image-popup">
+                                        <div class="description">
+                                    <h4 style="color:#FFA047;">Postcard</h4>
+                                    <h5>왓애버 프로젝트 (2022)</h5>
+                                </div>
+                                <!--end description-->
+                                <div class="image">
+                                    <div class="bg-transfer"><img src="{% static 'assets/img/Whatever Kit_postcard.jpeg' %}" alt=""></div>
+                                    </div>
+                            </a>
+                            <!--end work-->
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-4 col-sm-4">
+                            <a href="{% static 'assets/img/Whatever Kit_pamphlet.jpeg' %}" class="work image-popup">
+                                        <div class="description">
+                                    <h4 style="color:#FFA047;">Pamplhet</h4>
+                                    <h5>왓애버 프로젝트 (2022)</h5>
+                                </div>
+                                <!--end description-->
+                                <div class="image">
+                                    <div class="bg-transfer"><img src="{% static 'assets/img/Whatever Kit_pamphlet.jpeg' %}" alt=""></div>
+                                    </div>
+                            </a>
+                            <!--end work-->
+                        </div>
+                        <!--end col-md-4-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end modal-body-->
+            </div>
+            <!--end modal-content-->
+        </div>
+        <!--end container-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end #modal-our-works-->
+
+<!-- Modal Contact Us -->
+<div class="modal fade" id="modal-contact-us" tabindex="-1" role="dialog" aria-labelledby="modal-contact-us-label">
+    <div class="modal-dialog" role="document">
+        <div class="container">
+            <div class="modal-content">
+                <div class="modal-header" data-background-color="#ffe858">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2 class="modal-title" id="modal-contact-us-label">오시는 길</h2>
+                </div>
+                <div id="map"></div>
+                <div class="modal-body">
+                    <section>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3">
+                                <h3 style="color:#FF40B1;"><b>SRT는 다음과 같은</b></h3>
+                                <address>
+                                    괜히 싸움이라도 날까봐<br>
+                                    혹시 관계가 서먹해질까봐<br>
+                                    잘난 척 한다고 생각할까봐<br>
+                                    예민한 사람으로 비춰질까봐<br>
+                                </address>
+                            </div>
+                            <!--end col-md-3-->
+                            <div class="col-md-3 col-sm-3">
+                                <h3 style="color:#FF40B1;"><b>청년을 환영합니다!</b></h3>
+                                <address>
+                                    정치에 관심이 있는데<br>
+                                    주변 사람들과 이야기하기 부담스러운 청년<br>
+                                    정치를 잘 모르지만 관심을 가져보고 싶은 청년<br>
+                                </address>
+                            </div>
+                            <!--end col-md-3-->
+                            <div class="col-md-3 col-sm-3">
+                                <h3 style="color:#FF40B1;"><b>가입 대상</b></h3>
+                                <figure>나이 : 만 19~39세</figure>
+                                <figure>거주 지역 : 서울시 어느 곳이든</figure>
+                            </div>
+                            <!--end col-md-3-->
+                            <div class="col-md-3 col-sm-3">
+                                <h3 style="color:#FF40B1;"><b>가입 문의</b></h3>
+                                <figure><a href="https://www.instagram.com/srt__crew/" class="icon" target="_blank"><img src="{% static 'assets/img/ICON_INSTA.png' %}" alt="" height="15" width="15"> srt__crew</a></figure>
+                                <figure><a href="mailto:ask@srt.seoul.kr" class="icon" target="_blank"><img src="{% static 'assets/img/ICON_MAIL.png' %}" alt="" height="15" width="15"> ask@srt.seoul.kr</a></figure>
+                                <figure><a href="" class="icon" target="_blank"><img src="{% static 'assets/img/ICON_TALK.png' %}" alt="" height="15" width="15"> nevertheless.</a></figure>
+                            </div>
+                            <!--end col-md-3-->
+                            <div class="col-md-12 col-sm-12">
+                                <h3 style="color:#FF40B1;"><b>Contact</b></h3>
+                                <form id="form-contact" method="post" class="form clearfix inputs-underline">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="이름 혹은 닉네임" required>
+                                            </div>
+                                            <!--end form-group -->
+                                        </div>
+                                        <!--end col-md-6 col-sm-6 -->
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="이메일 주소" required>
+                                            </div>
+                                            <!--end form-group -->
+                                        </div>
+                                        <!--end col-md-6 col-sm-6 -->
+                                    </div>
+                                    <!--end row -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <textarea class="form-control" id="form-contact-message" rows="5" name="message" placeholder="내용" required></textarea>
+                                            </div>
+                                            <!--end form-group -->
+                                        </div>
+                                        <!--end col-md-12 -->
+                                    </div>
+                                    <!--end row -->
+                                    <div class="form-group clearfix">
+                                        <button type="submit" class="btn pull-right btn-default btn-framed btn-rounded" id="form-contact-submit" disabled>공사중</button>
+                                    </div>
+                                    <!--end form-group -->
+                                    <div class="form-contact-status"></div>
+                                </form>
+                                <!--end form-contact -->
+                            </div>
+                            <!--end col-md-6-->
+                        </div>
+                    </section>
+                </div>
+                <!--end modal-body-->
+            </div>
+            <!--end modal-content-->
+        </div>
+        <!--end container-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end #modal-contact-us-->
+
+<script src="{% static 'assets/js/jquery-2.2.1.min.js' %}"></script>
+<script defer src="https://maps.google.com/maps/api/js?key=AIzaSyAuVbz6hmpA46FzvMMmdD9zKoyKQL5vTvs&callback=initMap"></script>
+<script src="{% static 'assets/bootstrap/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'assets/js/jquery.validate.min.js' %}"></script>
+<script src="{% static 'assets/js/jquery.magnific-popup.min.js' %}"nific-popup.min.js"></script>
+<script src="{% static 'assets/js/sketch.min.js' %}"></script>
+<script src="{% static 'assets/js/custom.js' %}"></script>
+
+<script>
+    window.initMap = function () {
+    const map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: 37.5032625, lng: 127.1113353 },
+        zoom: 17,
+    });
+
+    const malls = [{ label: "SRT", name: "정원이있는국민책방 송파점 (서울 송파구 가락로21길 8)", lat: 37.5032625, lng: 127.1113353 },];
+
+    const infowindow = new google.maps.InfoWindow();
+
+    malls.forEach(({ label, name, lat, lng }) => {
+        const marker = new google.maps.Marker({
+        position: { lat, lng },
+        label,
+        map: map,
+        title: "모임 장소",
+        });
+
+        marker.addListener("click", () => {
+        map.panTo(marker.position);
+        infowindow.setContent(name);
+        infowindow.open({
+            anchor: marker,
+            map,
+        });
+        });
+    });
+
+    };
+
+</script>
+
+<script>
+
+    //  Map
+
+    // var latitude = 37.5032625; 
+    // var longitude = 127.1113353;
+    // var markerImage = "{% static 'assets/img/map-marker.png' %}";
+    // var mapTheme = "";
+    // var mapElement = "map";
+
+    // $(".modal").on("shown.bs.modal", function (e) {
+    //     google.maps.event.addDomListener(window, 'load', simpleMap(latitude, longitude, markerImage, mapTheme, mapElement));
+    // });
+
+    // Background
+
+    var COLOURS = [ '#61dfff', '#A7EBCA', '#FFFFFF', '#ff6767' ];
+    var radius = 0;
+    var randomColor = 0;
+
+    Sketch.create({
+
+        container: document.getElementById( 'background-content' ),
+        autoclear: false,
+        retina: 'auto',
+
+        update: function() {
+            radius = 2 + abs( sin( this.millis * 0.003 ) * 50 );
+        },
+
+        click: function() {
+            randomColor = parseInt( 0 + (COLOURS.length - 0) * Math.random(), 10 ) ;
+        },
+
+        touchmove: function() {
+
+            for ( var i = this.touches.length - 1, touch; i >= 0; i-- ) {
+
+                touch = this.touches[i];
+
+                this.lineCap = 'round';
+                this.lineJoin = 'round';
+                this.fillStyle = this.strokeStyle = COLOURS[ randomColor % COLOURS.length ];
+                this.lineWidth = radius;
+
+                this.beginPath();
+                this.moveTo( touch.ox, touch.oy );
+                this.lineTo( touch.x, touch.y );
+                this.stroke();
+            }
+        }
+    });
+
+
+</script>
+
+</body>
