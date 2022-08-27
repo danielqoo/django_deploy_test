@@ -16,7 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from main import views as main_views
- 
+admin.site.site_header = 'Web_SRT 관리자'
+admin.site.site_title = 'SRT 사이트 관리'
+
 urlpatterns = [
     path('', main_views.home, name="home"),
     path('index/', main_views.index, name="index"),

@@ -6,27 +6,27 @@
 
 /* VARIABLE DEFINITIONS */
 :root {
-  --primary: #79aec8;
-  --secondary: #417690;
-  --accent: #f5dd5d;
-  --primary-fg: #fff;
+  --primary: #ff6767;
+  --secondary: #00FF7F;
+  --accent: #333;
+  --primary-fg: #333;
 
   --body-fg: #333;
   --body-bg: #fff;
   --body-quiet-color: #666;
   --body-loud-color: #000;
 
-  --header-color: #ffc;
+  --header-color: #000;
   --header-branding-color: var(--accent);
   --header-bg: var(--secondary);
   --header-link-color: var(--primary-fg);
 
-  --breadcrumbs-fg: #c4dce8;
+  --breadcrumbs-fg: #4DFFE4;
   --breadcrumbs-link-fg: var(--body-bg);
   --breadcrumbs-bg: var(--primary);
 
-  --link-fg: #447e9b;
-  --link-hover-color: #036;
+  --link-fg: #666;
+  --link-hover-color: #00FF7F;
   --link-selected-fg: #5b80b2;
 
   --hairline-color: #e8e8e8;
@@ -42,13 +42,13 @@
   --selected-bg: #e4e4e4; /* E.g. selected table cells */
   --selected-row: #ffc;
 
-  --button-fg: #fff;
+  --button-fg: #333;
   --button-bg: var(--primary);
-  --button-hover-bg: #609ab6;
+  --button-hover-bg: #BF4D4D;
   --default-button-bg: var(--secondary);
-  --default-button-hover-bg: #205067;
-  --close-button-bg: #888; /* Previously #bbb, contrast 1.92 */
-  --close-button-hover-bg: #747474;
+  --default-button-hover-bg: #00BF60;
+  --close-button-bg: #00FF7F; /* Previously #bbb, contrast 1.92 */
+  --close-button-hover-bg: #268053;
   --delete-button-bg: #ba2121;
   --delete-button-hover-bg: #a41515;
 
@@ -65,7 +65,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 0.875rem;
-    font-family: "Roboto","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: var(--body-fg);
     background: var(--body-bg);
 }
@@ -197,7 +197,7 @@ blockquote {
 }
 
 code, pre {
-    font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
     color: var(--body-quiet-color);
     font-size: 0.75rem;
     overflow-x: auto;
@@ -441,9 +441,9 @@ input, textarea, select, .form-row p, form .button {
     margin: 2px 0;
     padding: 2px 3px;
     vertical-align: middle;
-    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: normal;
-    font-size: 0.8125rem;
+    font-size: 1rem;
 }
 .form-row div.help {
     padding: 2px 3px;
@@ -900,6 +900,7 @@ a.deletelink:focus, a.deletelink:hover {
 
 #branding h1 a:link, #branding h1 a:visited {
     color: var(--accent);
+    font-weight: bold;
 }
 
 #branding h2 {
@@ -922,7 +923,7 @@ a.deletelink:focus, a.deletelink:hover {
     background: none;
     border: 0;
     cursor: pointer;
-    font-family: "Roboto","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #user-tools {
@@ -940,7 +941,7 @@ a.deletelink:focus, a.deletelink:hover {
 }
 
 #user-tools a, #logout-form button {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    border-bottom: 1px solid #00BF60;
 }
 
 #user-tools a:focus, #user-tools a:hover,
