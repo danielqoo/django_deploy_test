@@ -691,8 +691,9 @@ form .status i {
 }
 
 .page-wrapper header .brand img {
+    max-height: 30px;
     width: auto;
-    height: 4em;
+    height: 100%;
 }
 
 .page-wrapper header nav {
