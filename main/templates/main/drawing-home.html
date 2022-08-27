@@ -634,7 +634,19 @@
         },
 
         click: function() {
-            randomColor = parseInt( 0 + (COLOURS.length - 0) * Math.random(), 10 ) ;
+            randomColor = parseInt( 0 + (COLOURS.length - 0) * Math.random(), 4 ) ;
+        },
+
+        touchstart: function() {
+            randomColor = parseInt( 0 + (COLOURS.length - 0) * Math.random(), 4 ) ;
+        },
+
+        mouseup: function() {
+            randomColor = parseInt( 0 + (COLOURS.length - 0) * Math.random(), 4 ) ;
+        },
+
+        focus: function() {
+            randomColor = parseInt( 0 + (COLOURS.length - 0) * Math.random(), 4 ) ;
         },
 
         touchmove: function() {
