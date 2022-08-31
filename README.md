@@ -1,1 +1,1 @@
-# django_deploy_test
+# django_deploy_web
