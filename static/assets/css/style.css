@@ -43,9 +43,12 @@ C. Components
 A. Basic Styling
 ***********************************************************************************************************************/
 
+@import url('//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
+.spoka * { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+
 body, html {
     height: 100%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
     font-size: 1rem;
     overflow: hidden;
     position: relative;
